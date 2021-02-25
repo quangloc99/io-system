@@ -1,0 +1,12 @@
+*.ko
+*.o
+*.mod.*
+.*.cmd
+test_print_big
+.tmp_versions/
+.cache.mk
+modules.order
+Module.symvers
+
+*.aux
+*.log
