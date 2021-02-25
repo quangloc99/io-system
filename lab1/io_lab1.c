@@ -42,7 +42,7 @@ static ssize_t proc_read(struct file *file, char __user * ubuf, size_t count, lo
 #ifdef PRINT_EVENT
     printk(KERN_INFO LOG("proc read"));
 #endif
-    printed = snprintf(num_buf, NUM_BUF_SIZE, "%zu", total_read_chars);
+    printed = snprintf(num_buf, NUM_BUF_SIZE, "%zu\n", total_read_chars);
     if (printed < 0) {
         return -ENOMEM;
     }
@@ -101,7 +101,7 @@ static ssize_t dev_read(struct file *file, char __user *ubuf, size_t count, loff
 #ifdef PRINT_EVENT
     printk(KERN_INFO LOG("dev read"));
 #endif
-    printk("%zu", total_read_chars);
+    printk("%zu\n", total_read_chars);
     return 0;
 }
 

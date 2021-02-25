@@ -2,7 +2,7 @@
 #define __CONFIG_H__
 
 // for debugging
-#define PRINT_EVENT
+// #define PRINT_EVENT 
 
 #define VARIANT_NAME "var1"
 
