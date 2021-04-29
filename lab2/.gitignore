@@ -1,0 +1,12 @@
+.cache.mk
+io_lab2.ko
+.io_lab2.ko.cmd
+io_lab2.mod.c
+io_lab2.mod.o
+.io_lab2.mod.o.cmd
+io_lab2.o
+.io_lab2.o.cmd
+modules.order
+Module.symvers
+.tmp_versions
+
