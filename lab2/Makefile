@@ -1,4 +1,5 @@
 obj-m += io_lab2.o
+obj-m += io_lab2_var4.o
 
 MY_CFLAGS += -g -DDEBUG
 ccflags-y += ${MY_CFLAGS}
